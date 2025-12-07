@@ -841,7 +841,8 @@ public class AnalyseurComplet {
             // Choisir un fichier
             System.out.print("\nChemin du fichier source (.c) : ");
             fichierSource = sc.nextLine();
-            fichierTokens = "tokens.txt";
+             System.out.print("Chemin du fichier tokens (sortie) : ");
+             fichierTokens = sc.nextLine();
         }
         
         System.out.println();
